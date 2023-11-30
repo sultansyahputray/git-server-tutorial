@@ -41,7 +41,7 @@ $ git init --bare
 
 7. Uji coba di PC client apakah sudah bisa mengakses git server atau belum dengan cara mengclone isi dari server kita
 ```bash
-git clone git@(ip pc server):/home/eros/git/files.git
+$ git clone git@(ip pc server):/home/eros/git/files.git
 ```
 
 8. Apabila kita ingin mem-push ke server, maka lalukan langkah-langkah push standar seperti pada github yang mana branch untuk git server ini sendiri yaitu master
